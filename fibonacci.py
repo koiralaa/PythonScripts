@@ -37,21 +37,21 @@ n = int(input("Fibonnaci of : "))
 
 print("Using simple recursive")
 start = time.time()
-# print(fib(n))
-# end = time.time()
-# print(end - start)
+print(fib(n))
+end = time.time()
+print(end - start)
 
 
-# print("Using memoize")
-# start = time.time()
-# given_array = []
+print("Using memoize")
+start = time.time()
+given_array = []
 
-# for i in range(n+1):
-#    given_array.append(0)
-#
-# print(fib_memo(n, given_array))
-# end = time.time()
-# print(end - start)
+for i in range(n+1):
+   given_array.append(0)
+
+print(fib_memo(n, given_array))
+end = time.time()
+print(end - start)
 
 print(f'{n}th Fibonacci no. : ')
 start = time.time()
