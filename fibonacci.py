@@ -32,8 +32,8 @@ def fib_myStyle(n):
     return fib_array[-1]
 
 
-# n = int(input("Fibonnaci of : "))
-n = 10000
+n = int(input("Fibonnaci of : "))
+# n = 10000
 
 # print("Using simple recursive")
 # start = time.time()
